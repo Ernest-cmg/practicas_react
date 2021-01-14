@@ -17,7 +17,7 @@ function App() {
  const loading = (
    <>
       <div className='container'>
-          <h1 className='text-primary mt-5'>Cragando...</h1>
+          <h1 className='text-primary mt-5'>Cragando....</h1>
       </div>
    </>
  )
