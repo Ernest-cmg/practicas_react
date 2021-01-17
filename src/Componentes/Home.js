@@ -1,11 +1,12 @@
 import React ,{useEffect}from 'react'
+
 import {connect} from 'react-redux'
 
 
 
 
 
-const Home = ({lista})=>{
+const Home = ({})=>{
 
     useEffect(()=>{
 
@@ -17,22 +18,14 @@ const Home = ({lista})=>{
 
     return (
         <main className='mt-5'>
-        {
-            lista.map((el)=>{
-                return(
-                    <h1>{el.category}</h1>
-                )
-            })
-        }
+          <h1>Hola React js</h1>
         </main>
     )
 }
 
 
 const mapStateToProps =(state)=>{
-    return({
-        lista: state.lista
-    })
+    return({})
 }
 
 
